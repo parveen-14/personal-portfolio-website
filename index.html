@@ -8,6 +8,8 @@
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="freehtml5.co" />
+	<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
 
 	<!-- 
 	//////////////////////////////////////////////////////
@@ -558,7 +560,7 @@
 			</div>
 		</div>
 	</div>
-	
+	<!-- Contact Form Start -->
 	<div id="fh5co-started" class="fh5co-bg-dark">
 		<div class="overlay"></div>
 		<div class="container">
@@ -571,17 +573,20 @@
 			</div>
 		</div>
 	</div>
-
+<!--add section tag-->
+<section>
+	
 	<div id="fh5co-consult">
 		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
 			<div class="overlay"></div>
 		</div>
 		<div class="choose animate-box">
 			<h2>Contact</h2>
-			<form action="#">
+			<form action="https://send.pageclip.co/m7XUgAjD3nMX1reIqHlQ9JeaX5kIa6e8/contact-form" class="pageclip-form" method="post">
 				<div class="row form-group">
 					<div class="col-md-6">
-						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+						<input type="text" name="fname" class="form-control" placeholder="Your firstname">
+					<!--<input type="email" name="email" value="roscoe@example.com" />-->
 					</div>
 				</div>
 				<div class="row form-group">
@@ -608,13 +613,15 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<input type="submit" value="Send Message" class="btn btn-primary">
+					
+					<button type="submit" class="pageclip-form__submit">Submit</button>
 				</div>
 
 			</form>	
 		</div>
 	</div>
-
+</section>
+<!--Close section tag-->
 	<div id="map" class="fh5co-map"></div>
 	</div>
 	
@@ -650,6 +657,7 @@
 	
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
 	</body>
 </html>
